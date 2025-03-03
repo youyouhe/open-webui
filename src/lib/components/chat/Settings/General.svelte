@@ -14,7 +14,7 @@
 	export let getModels: Function;
 
 	// General
-	let themes = ['dark', 'light', 'rose-pine dark', 'rose-pine-dawn light', 'oled-dark'];
+	let themes = ['dark', 'light', 'light-blue', 'rose-pine dark', 'rose-pine-dawn light', 'oled-dark'];
 	let selectedTheme = 'system';
 
 	let languages: Awaited<ReturnType<typeof getLanguages>> = [];
@@ -116,10 +116,24 @@
 				});
 			});
 
+		// 添加 light-blue 主题的处理
+		if (_theme === 'light-blue') {
+			document.documentElement.style.setProperty('--color-primary', '#2196F3');
+			document.documentElement.style.setProperty('--color-background', '#E6F3FF');
+			document.documentElement.style.setProperty('--color-surface', '#FFFFFF');
+			document.documentElement.style.setProperty('--color-text', '#1A237E');
+			document.documentElement.style.setProperty('--color-border', '#BBDEFB');
+			document.documentElement.style.setProperty('--color-hover', '#90CAF9');
+			document.documentElement.style.setProperty('--color-sidebar', '#F8FBFF');
+			document.documentElement.classList.remove('dark');
+			document.documentElement.classList.add('light-blue');
+			// 防止后续代码再添加其他主题类
+			return;
+		}
+		
 		themeToApply.split(' ').forEach((e) => {
 			document.documentElement.classList.add(e);
 		});
-
 		const metaThemeColor = document.querySelector('meta[name="theme-color"]');
 		if (metaThemeColor) {
 			if (_theme.includes('system')) {
@@ -138,7 +152,9 @@
 							? '#000000'
 							: _theme === 'her'
 								? '#983724'
-								: '#ffffff'
+								: _theme === 'light-blue'
+									? '#E6F3FF'
+									: '#ffffff'
 				);
 			}
 		}
@@ -183,6 +199,7 @@
 						<option value="dark">🌑 {$i18n.t('Dark')}</option>
 						<option value="oled-dark">🌃 {$i18n.t('OLED Dark')}</option>
 						<option value="light">☀️ {$i18n.t('Light')}</option>
+						<option value="light-blue">🔵 {$i18n.t('Light Blue')}</option>
 						<option value="her">🌷 Her</option>
 						<!-- <option value="rose-pine dark">🪻 {$i18n.t('Rosé Pine')}</option>
 						<option value="rose-pine-dawn light">🌷 {$i18n.t('Rosé Pine Dawn')}</option> -->

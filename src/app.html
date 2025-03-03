@@ -49,6 +49,18 @@
 					document.documentElement.style.setProperty('--color-gray-950', '#000000');
 					document.documentElement.classList.add('dark');
 					metaThemeColorTag.setAttribute('content', '#000000');
+				} else if (localStorage.theme === 'light-blue') {
+					document.documentElement.classList.remove('dark');
+					document.documentElement.classList.add('light');
+					document.documentElement.classList.add('light-blue');
+					document.documentElement.style.setProperty('--color-primary', '#2196F3');
+					document.documentElement.style.setProperty('--color-background', '#E6F3FF');
+					document.documentElement.style.setProperty('--color-surface', '#FFFFFF');
+					document.documentElement.style.setProperty('--color-text', '#1A237E');
+					document.documentElement.style.setProperty('--color-border', '#BBDEFB');
+					document.documentElement.style.setProperty('--color-hover', '#90CAF9');
+					document.documentElement.style.setProperty('--color-sidebar', '#F8FBFF');
+					metaThemeColorTag.setAttribute('content', '#E6F3FF');
 				} else if (localStorage.theme === 'light') {
 					document.documentElement.classList.add('light');
 					metaThemeColorTag.setAttribute('content', '#ffffff');

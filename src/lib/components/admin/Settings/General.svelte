@@ -46,21 +46,31 @@
 		certificate_path: '',
 		ciphers: ''
 	};
+// 修改管理员设置中的检查更新函数
+    const checkForVersionUpdates = async () => {
+        updateAvailable = null;
+        // 注释掉实际的API调用
+        /*
+        version = await getVersionUpdates(localStorage.token).catch((error) => {
+            return {
+                current: WEBUI_VERSION,
+                latest: WEBUI_VERSION
+            };
+        });
 
-	const checkForVersionUpdates = async () => {
-		updateAvailable = null;
-		version = await getVersionUpdates(localStorage.token).catch((error) => {
-			return {
-				current: WEBUI_VERSION,
-				latest: WEBUI_VERSION
-			};
-		});
+        console.log(version);
 
-		console.log(version);
-
-		updateAvailable = compareVersion(version.latest, version.current);
-		console.log(updateAvailable);
-	};
+        updateAvailable = compareVersion(version.latest, version.current);
+        console.log(updateAvailable);
+        */
+        
+        // 直接设置为当前版本，不显示更新
+        version = {
+            current: WEBUI_VERSION,
+            latest: WEBUI_VERSION
+        };
+        updateAvailable = false;
+    };
 
 	const updateLdapServerHandler = async () => {
 		if (!ENABLE_LDAP) return;

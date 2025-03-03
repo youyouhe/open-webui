@@ -18,21 +18,31 @@
 		latest: ''
 	};
 
-	const checkForVersionUpdates = async () => {
-		updateAvailable = null;
-		version = await getVersionUpdates(localStorage.token).catch((error) => {
-			return {
-				current: WEBUI_VERSION,
-				latest: WEBUI_VERSION
-			};
-		});
+	// 修改检查更新函数，使其不执行实际的检查
+    const checkForVersionUpdates = async () => {
+        updateAvailable = null;
+        // 注释掉实际的API调用
+        /*
+        version = await getVersionUpdates(localStorage.token).catch((error) => {
+            return {
+                current: WEBUI_VERSION,
+                latest: WEBUI_VERSION
+            };
+        });
 
-		console.log(version);
+        console.log(version);
 
-		updateAvailable = compareVersion(version.latest, version.current);
-		console.log(updateAvailable);
-	};
-
+        updateAvailable = compareVersion(version.latest, version.current);
+        console.log(updateAvailable);
+        */
+        
+        // 直接设置为当前版本，不显示更新
+        version = {
+            current: WEBUI_VERSION,
+            latest: WEBUI_VERSION
+        };
+        updateAvailable = false;
+    };
 	onMount(async () => {
 		ollamaVersion = await getOllamaVersion(localStorage.token).catch((error) => {
 			return '';

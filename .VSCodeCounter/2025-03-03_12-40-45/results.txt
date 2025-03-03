@@ -1,0 +1,231 @@
+Date : 2025-03-03 12:40:45
+Directory : c:\Users\Administrator\open-webui\backend
+Total : 162 files,  113967 codes, 1776 comments, 6900 blanks, all 122643 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JavaScript       |          2 |     72,237 |          1 |         62 |     72,300 |
+| Python           |        144 |     28,897 |      1,735 |      6,705 |     37,337 |
+| CSS              |          2 |      9,555 |         25 |         51 |      9,631 |
+| JSON             |          8 |      3,003 |          0 |          8 |      3,011 |
+| Ini              |          1 |         90 |          0 |         25 |        115 |
+| pip requirements |          1 |         88 |          5 |         26 |        119 |
+| Shell Script     |          2 |         54 |          4 |         13 |         71 |
+| Batch            |          1 |         30 |          6 |          9 |         45 |
+| Ignore           |          1 |         13 |          0 |          1 |         14 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                     |        162 |    113,967 |      1,776 |      6,900 |    122,643 |
+| . (Files)                                                                                                             |          5 |        185 |         15 |         49 |        249 |
+| open_webui                                                                                                            |        157 |    113,782 |      1,761 |      6,851 |    122,394 |
+| open_webui (Files)                                                                                                    |          8 |      3,767 |        283 |        930 |      4,980 |
+| open_webui\internal                                                                                                   |         20 |      1,140 |         57 |        401 |      1,598 |
+| open_webui\internal (Files)                                                                                           |          2 |        132 |         12 |         40 |        184 |
+| open_webui\internal\migrations                                                                                        |         18 |      1,008 |         45 |        361 |      1,414 |
+| open_webui\migrations                                                                                                 |         17 |        929 |         99 |        257 |      1,285 |
+| open_webui\migrations (Files)                                                                                         |          2 |         58 |         12 |         28 |         98 |
+| open_webui\migrations\versions                                                                                        |         15 |        871 |         87 |        229 |      1,187 |
+| open_webui\models                                                                                                     |         16 |      3,248 |        201 |        840 |      4,289 |
+| open_webui\retrieval                                                                                                  |         37 |      6,222 |        102 |        610 |      6,934 |
+| open_webui\retrieval (Files)                                                                                          |          1 |        574 |         18 |        108 |        700 |
+| open_webui\retrieval\loaders                                                                                          |          2 |        291 |          1 |         42 |        334 |
+| open_webui\retrieval\models                                                                                           |          1 |         56 |         12 |         20 |         88 |
+| open_webui\retrieval\vector                                                                                           |          7 |      1,085 |         49 |        187 |      1,321 |
+| open_webui\retrieval\vector (Files)                                                                                   |          2 |         29 |          0 |         14 |         43 |
+| open_webui\retrieval\vector\dbs                                                                                       |          5 |      1,056 |         49 |        173 |      1,278 |
+| open_webui\retrieval\web                                                                                              |         26 |      4,216 |         22 |        253 |      4,491 |
+| open_webui\retrieval\web (Files)                                                                                      |         18 |      1,213 |         22 |        245 |      1,480 |
+| open_webui\retrieval\web\testdata                                                                                     |          8 |      3,003 |          0 |          8 |      3,011 |
+| open_webui\routers                                                                                                    |         23 |      9,966 |        680 |      2,234 |     12,880 |
+| open_webui\socket                                                                                                     |          2 |        342 |         15 |        102 |        459 |
+| open_webui\static                                                                                                     |          4 |     81,792 |         26 |        113 |     81,931 |
+| open_webui\static (Files)                                                                                             |          1 |          0 |          0 |          1 |          1 |
+| open_webui\static\assets                                                                                              |          1 |        245 |         25 |         50 |        320 |
+| open_webui\static\swagger-ui                                                                                          |          2 |     81,547 |          1 |         62 |     81,610 |
+| open_webui\storage                                                                                                    |          1 |        264 |         14 |         50 |        328 |
+| open_webui\test                                                                                                       |          9 |      1,148 |         48 |        198 |      1,394 |
+| open_webui\test (Files)                                                                                               |          1 |          0 |          0 |          1 |          1 |
+| open_webui\test\apps                                                                                                  |          6 |        980 |         45 |        160 |      1,185 |
+| open_webui\test\apps\webui                                                                                            |          6 |        980 |         45 |        160 |      1,185 |
+| open_webui\test\apps\webui\routers                                                                                    |          5 |        641 |         22 |         97 |        760 |
+| open_webui\test\apps\webui\storage                                                                                    |          1 |        339 |         23 |         63 |        425 |
+| open_webui\test\util                                                                                                  |          2 |        168 |          3 |         37 |        208 |
+| open_webui\utils                                                                                                      |         20 |      4,964 |        236 |      1,116 |      6,316 |
+| open_webui\utils (Files)                                                                                              |         19 |      4,801 |        236 |      1,085 |      6,122 |
+| open_webui\utils\images                                                                                               |          1 |        163 |          0 |         31 |        194 |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                              | language         | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\Administrator\open-webui\backend\.dockerignore                                                               | Ignore           |         13 |          0 |          1 |         14 |
+| c:\Users\Administrator\open-webui\backend\dev.sh                                                                      | Shell Script     |          2 |          0 |          0 |          2 |
+| c:\Users\Administrator\open-webui\backend\open_webui\__init__.py                                                      | Python           |         78 |          0 |         19 |         97 |
+| c:\Users\Administrator\open-webui\backend\open_webui\alembic.ini                                                      | Ini              |         90 |          0 |         25 |        115 |
+| c:\Users\Administrator\open-webui\backend\open_webui\config.py                                                        | Python           |      1,879 |        116 |        442 |      2,437 |
+| c:\Users\Administrator\open-webui\backend\open_webui\constants.py                                                     | Python           |         93 |          0 |         27 |        120 |
+| c:\Users\Administrator\open-webui\backend\open_webui\env.py                                                           | Python           |        271 |         60 |        113 |        444 |
+| c:\Users\Administrator\open-webui\backend\open_webui\functions.py                                                     | Python           |        253 |          6 |         61 |        320 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\db.py                                                   | Python           |         87 |          6 |         24 |        117 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\001_initial_schema.py                        | Python           |        194 |          5 |         56 |        255 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\002_add_local_sharing.py                     | Python           |         34 |          0 |         15 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\003_add_auth_api_key.py                      | Python           |         34 |          0 |         15 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\004_add_archived.py                          | Python           |         32 |          0 |         15 |         47 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\005_add_updated_at.py                        | Python           |         78 |         18 |         35 |        131 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\006_migrate_timestamps_and_charfields.py     | Python           |        113 |          3 |         15 |        131 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\007_add_user_last_active_at.py               | Python           |         50 |          9 |         21 |         80 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\008_add_memory.py                            | Python           |         39 |          0 |         15 |         54 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\009_add_models.py                            | Python           |         43 |          0 |         19 |         62 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\010_migrate_modelfiles_to_models.py          | Python           |         95 |          6 |         30 |        131 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\011_add_user_settings.py                     | Python           |         32 |          2 |         15 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\012_add_tools.py                             | Python           |         43 |          0 |         19 |         62 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\013_add_user_info.py                         | Python           |         32 |          2 |         15 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\014_add_files.py                             | Python           |         40 |          0 |         16 |         56 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\015_add_functions.py                         | Python           |         43 |          0 |         19 |         62 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\016_add_valves_and_is_active.py              | Python           |         36 |          0 |         15 |         51 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\017_add_user_oauth_sub.py                    | Python           |         35 |          0 |         11 |         46 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\migrations\018_add_function_is_global.py                | Python           |         35 |          0 |         15 |         50 |
+| c:\Users\Administrator\open-webui\backend\open_webui\internal\wrappers.py                                             | Python           |         45 |          6 |         16 |         67 |
+| c:\Users\Administrator\open-webui\backend\open_webui\main.py                                                          | Python           |      1,061 |         97 |        227 |      1,385 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\env.py                                                | Python           |         48 |         12 |         22 |         82 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\util.py                                               | Python           |         10 |          0 |          6 |         16 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\1af9b942657b_migrate_tags.py                 | Python           |        103 |         20 |         29 |        152 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\242a2047eae0_update_chat_table.py            | Python           |         73 |         11 |         24 |        108 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\3781e22d8b01_update_message_table.py         | Python           |         56 |          3 |         12 |         71 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\3ab32c4b8f59_update_tags.py                  | Python           |         54 |          8 |         20 |         82 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\4ace53fd72c8_update_folder_table_datetime.py | Python           |         52 |          5 |         11 |         68 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\57c599a3cb57_add_channel_table.py            | Python           |         38 |          0 |         11 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\6a39f3d8e55c_add_knowledge_table.py          | Python           |         64 |          4 |         13 |         81 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\7826ab40b532_update_file_table.py            | Python           |         18 |          0 |          9 |         27 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\7e5b5dc7342b_init.py                         | Python           |        177 |          5 |         23 |        205 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\922e7a387820_add_group_table.py              | Python           |         57 |         10 |         19 |         86 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\af906e964978_add_feedback_table.py           | Python           |         40 |          3 |          9 |         52 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\c0fbf31ca0db_update_file_table.py            | Python           |         20 |          3 |         10 |         33 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\c29facfe716b_update_file_table_path.py       | Python           |         48 |         14 |         18 |         80 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\c69f45358db4_add_folder_table.py             | Python           |         40 |          0 |         11 |         51 |
+| c:\Users\Administrator\open-webui\backend\open_webui\migrations\versions\ca81bd47c050_add_config_table.py             | Python           |         31 |          1 |         10 |         42 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\auths.py                                                  | Python           |        148 |          8 |         51 |        207 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\channels.py                                               | Python           |         98 |          6 |         33 |        137 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\chats.py                                                  | Python           |        733 |         30 |        150 |        913 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\feedbacks.py                                              | Python           |        205 |          6 |         44 |        255 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\files.py                                                  | Python           |        179 |          6 |         51 |        236 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\folders.py                                                | Python           |        210 |          9 |         53 |        272 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\functions.py                                              | Python           |        222 |          9 |         44 |        275 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\groups.py                                                 | Python           |        160 |          6 |         46 |        212 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\knowledge.py                                              | Python           |        156 |         21 |         45 |        222 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\memories.py                                               | Python           |        105 |          6 |         27 |        138 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\messages.py                                               | Python           |        214 |          8 |         58 |        280 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\models.py                                                 | Python           |        187 |         24 |         63 |        274 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\prompts.py                                                | Python           |        107 |         21 |         32 |        160 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\tags.py                                                   | Python           |         81 |          7 |         22 |        110 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\tools.py                                                  | Python           |        187 |         24 |         52 |        263 |
+| c:\Users\Administrator\open-webui\backend\open_webui\models\users.py                                                  | Python           |        256 |         10 |         69 |        335 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\loaders\main.py                                        | Python           |        195 |          0 |         21 |        216 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\loaders\youtube.py                                     | Python           |         96 |          1 |         21 |        118 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\models\colbert.py                                      | Python           |         56 |         12 |         20 |         88 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\utils.py                                               | Python           |        574 |         18 |        108 |        700 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\vector\connector.py                                    | Python           |         16 |          0 |          7 |         23 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\vector\dbs\chroma.py                                   | Python           |        148 |          9 |         22 |        179 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\vector\dbs\milvus.py                                   | Python           |        245 |         13 |         40 |        298 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\vector\dbs\opensearch.py                               | Python           |        170 |          4 |         33 |        207 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\vector\dbs\pgvector.py                                 | Python           |        338 |         16 |         50 |        404 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\vector\dbs\qdrant.py                                   | Python           |        155 |          7 |         28 |        190 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\vector\main.py                                         | Python           |         13 |          0 |          7 |         20 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\bing.py                                            | Python           |         65 |          0 |          9 |         74 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\bocha.py                                           | Python           |         55 |          0 |         11 |         66 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\brave.py                                           | Python           |         34 |          0 |          9 |         43 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\duckduckgo.py                                      | Python           |         34 |          5 |          8 |         47 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\exa.py                                             | Python           |         63 |          0 |         14 |         77 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\google_pse.py                                      | Python           |         60 |          0 |         10 |         70 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\jina_search.py                                     | Python           |         38 |          0 |         11 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\kagi.py                                            | Python           |         37 |          0 |         12 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\main.py                                            | Python           |         20 |          0 |          7 |         27 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\mojeek.py                                          | Python           |         33 |          0 |          8 |         41 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\searchapi.py                                       | Python           |         38 |          0 |         11 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\searxng.py                                         | Python           |         72 |          3 |         17 |         92 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\serpapi.py                                         | Python           |         38 |          0 |         11 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\serper.py                                          | Python           |         35 |          0 |          9 |         44 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\serply.py                                          | Python           |         58 |          0 |         12 |         70 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\serpstack.py                                       | Python           |         40 |          0 |          9 |         49 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\tavily.py                                          | Python           |         34 |          1 |         10 |         45 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\testdata\bing.json                                 | JSON             |         58 |          0 |          1 |         59 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\testdata\brave.json                                | JSON             |        998 |          0 |          1 |        999 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\testdata\google_pse.json                           | JSON             |        442 |          0 |          1 |        443 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\testdata\searchapi.json                            | JSON             |        357 |          0 |          1 |        358 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\testdata\searxng.json                              | JSON             |        476 |          0 |          1 |        477 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\testdata\serper.json                               | JSON             |        190 |          0 |          1 |        191 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\testdata\serply.json                               | JSON             |        206 |          0 |          1 |        207 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\testdata\serpstack.json                            | JSON             |        276 |          0 |          1 |        277 |
+| c:\Users\Administrator\open-webui\backend\open_webui\retrieval\web\utils.py                                           | Python           |        459 |         13 |         67 |        539 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\audio.py                                                 | Python           |        663 |         27 |        139 |        829 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\auths.py                                                 | Python           |        676 |         39 |        136 |        851 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\channels.py                                              | Python           |        547 |         41 |        125 |        713 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\chats.py                                                 | Python           |        432 |         95 |        172 |        699 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\configs.py                                               | Python           |        174 |         18 |         55 |        247 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\evaluations.py                                           | Python           |        113 |          6 |         41 |        160 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\files.py                                                 | Python           |        295 |         33 |         65 |        393 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\folders.py                                               | Python           |        181 |         21 |         50 |        252 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\functions.py                                             | Python           |        296 |         36 |         80 |        412 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\groups.py                                                | Python           |         90 |         15 |         27 |        132 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\images.py                                                | Python           |        573 |          4 |         96 |        673 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\knowledge.py                                             | Python           |        501 |         49 |        119 |        669 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\memories.py                                              | Python           |        122 |         21 |         50 |        193 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\models.py                                                | Python           |        138 |         22 |         44 |        204 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\ollama.py                                                | Python           |      1,320 |         38 |        277 |      1,635 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\openai.py                                                | Python           |        666 |         39 |        122 |        827 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\pipelines.py                                             | Python           |        387 |         20 |         94 |        501 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\prompts.py                                               | Python           |        113 |         16 |         33 |        162 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\retrieval.py                                             | Python           |      1,461 |         41 |        218 |      1,720 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\tasks.py                                                 | Python           |        568 |         27 |        105 |        700 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\tools.py                                                 | Python           |        330 |         34 |         80 |        444 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\users.py                                                 | Python           |        214 |         38 |         76 |        328 |
+| c:\Users\Administrator\open-webui\backend\open_webui\routers\utils.py                                                 | Python           |        106 |          0 |         30 |        136 |
+| c:\Users\Administrator\open-webui\backend\open_webui\socket\main.py                                                   | Python           |        276 |         13 |         82 |        371 |
+| c:\Users\Administrator\open-webui\backend\open_webui\socket\utils.py                                                  | Python           |         66 |          2 |         20 |         88 |
+| c:\Users\Administrator\open-webui\backend\open_webui\static\assets\pdf-style.css                                      | CSS              |        245 |         25 |         50 |        320 |
+| c:\Users\Administrator\open-webui\backend\open_webui\static\loader.js                                                 | JavaScript       |          0 |          0 |          1 |          1 |
+| c:\Users\Administrator\open-webui\backend\open_webui\static\swagger-ui\swagger-ui-bundle.js                           | JavaScript       |     72,237 |          1 |         61 |     72,299 |
+| c:\Users\Administrator\open-webui\backend\open_webui\static\swagger-ui\swagger-ui.css                                 | CSS              |      9,310 |          0 |          1 |      9,311 |
+| c:\Users\Administrator\open-webui\backend\open_webui\storage\provider.py                                              | Python           |        264 |         14 |         50 |        328 |
+| c:\Users\Administrator\open-webui\backend\open_webui\tasks.py                                                         | Python           |         42 |          4 |         16 |         62 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\__init__.py                                                 | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\apps\webui\routers\test_auths.py                            | Python           |        179 |          0 |         22 |        201 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\apps\webui\routers\test_chats.py                            | Python           |        208 |          0 |         29 |        237 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\apps\webui\routers\test_models.py                           | Python           |         51 |          0 |         11 |         62 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\apps\webui\routers\test_prompts.py                          | Python           |         73 |          8 |         11 |         92 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\apps\webui\routers\test_users.py                            | Python           |        130 |         14 |         24 |        168 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\apps\webui\storage\test_provider.py                         | Python           |        339 |         23 |         63 |        425 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\util\abstract_integration_test.py                           | Python           |        131 |          3 |         28 |        162 |
+| c:\Users\Administrator\open-webui\backend\open_webui\test\util\mock_user.py                                           | Python           |         37 |          0 |          9 |         46 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\access_control.py                                          | Python           |        109 |          6 |         33 |        148 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\audit.py                                                   | Python           |        196 |          4 |         50 |        250 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\auth.py                                                    | Python           |        179 |          9 |         60 |        248 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\chat.py                                                    | Python           |        360 |         11 |         77 |        448 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\code_interpreter.py                                        | Python           |        127 |          2 |         20 |        149 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\filter.py                                                  | Python           |         80 |          8 |         23 |        111 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\images\comfyui.py                                          | Python           |        163 |          0 |         31 |        194 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\logger.py                                                  | Python           |        115 |          0 |         26 |        141 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\middleware.py                                              | Python           |      1,676 |         51 |        319 |      2,046 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\misc.py                                                    | Python           |        317 |         29 |        107 |        453 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\models.py                                                  | Python           |        205 |          4 |         38 |        247 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\oauth.py                                                   | Python           |        355 |         31 |         45 |        431 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\payload.py                                                 | Python           |        169 |         27 |         47 |        243 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\pdf_generator.py                                           | Python           |        108 |         10 |         29 |        147 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\plugin.py                                                  | Python           |        136 |         10 |         35 |        181 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\response.py                                                | Python           |        108 |          0 |         20 |        128 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\security_headers.py                                        | Python           |         95 |          9 |         30 |        134 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\task.py                                                    | Python           |        261 |         13 |         66 |        340 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\tools.py                                                   | Python           |        155 |          8 |         53 |        216 |
+| c:\Users\Administrator\open-webui\backend\open_webui\utils\webhook.py                                                 | Python           |         50 |          4 |          7 |         61 |
+| c:\Users\Administrator\open-webui\backend\requirements.txt                                                            | pip requirements |         88 |          5 |         26 |        119 |
+| c:\Users\Administrator\open-webui\backend\start.sh                                                                    | Shell Script     |         52 |          4 |         13 |         69 |
+| c:\Users\Administrator\open-webui\backend\start_windows.bat                                                           | Batch            |         30 |          6 |          9 |         45 |
+| Total                                                                                                                 |                  |    113,967 |      1,776 |      6,900 |    122,643 |
++-----------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

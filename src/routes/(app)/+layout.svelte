@@ -190,22 +190,24 @@
 			if ($page.url.searchParams.get('temporary-chat') === 'true') {
 				temporaryChatEnabled.set(true);
 			}
+			// 注释或移除自动检查更新的代码
+            // Check for version updates
+            /*
+            if ($user.role === 'admin') {
+                // Check if the user has dismissed the update toast in the last 24 hours
+                if (localStorage.dismissedUpdateToast) {
+                    const dismissedUpdateToast = new Date(Number(localStorage.dismissedUpdateToast));
+                    const now = new Date();
 
-			// Check for version updates
-			if ($user.role === 'admin') {
-				// Check if the user has dismissed the update toast in the last 24 hours
-				if (localStorage.dismissedUpdateToast) {
-					const dismissedUpdateToast = new Date(Number(localStorage.dismissedUpdateToast));
-					const now = new Date();
-
-					if (now - dismissedUpdateToast > 24 * 60 * 60 * 1000) {
-						checkForVersionUpdates();
-					}
-				} else {
-					checkForVersionUpdates();
-				}
-			}
-			await tick();
+                    if (now - dismissedUpdateToast > 24 * 60 * 60 * 1000) {
+                        checkForVersionUpdates();
+                    }
+                } else {
+                    checkForVersionUpdates();
+                }
+            }
+            */
+            await tick();
 		}
 
 		loaded = true;
